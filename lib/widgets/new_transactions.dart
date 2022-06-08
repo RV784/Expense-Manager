@@ -24,8 +24,8 @@ class NewTransaction extends StatelessWidget {
             ),
             FlatButton(
               onPressed: () {
-                print(titleController.text);
-                print(amountController.text);
+                // print(titleController.text);
+                // print(amountController.text);
                 addTx(
                     titleController.text, double.parse(amountController.text));
               },
